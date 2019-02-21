@@ -11,8 +11,8 @@ double GeneralLednicky(const double& Momentum, const double& GaussR,
                        const double& ScattLenTri, const double& EffRangeTri,
                        const bool& SinOnly, const bool& QS, const bool& InverseScatLen=false);
 double GeneralLednicky(const double& Momentum, const double& GaussR,
-                       const std::complex<double>& ScattLenSin, const double& EffRangeSin,
-                       const std::complex<double>& ScattLenTri, const double& EffRangeTri,
+                       const std::complex<double>& ScattLenSin, const std::complex<double> &EffRangeSin,
+                       const std::complex<double>& ScattLenTri, const std::complex<double> &EffRangeTri,
                        const bool& SinOnly, const bool& QS, const bool& InverseScatLen=false);
 
 double GeneralCoulombLednicky(const double& Momentum, const double& GaussR,
