@@ -611,7 +611,7 @@ double LednickySingletScatAmplitude(const double& kStar,
     std::complex<double> nominator(2 * etaVal * std::sin(2. * deltaVal),
                                    -(1. - etaValSq));
     return nominator * kStar /
-           (1 + etaVal * etaVal - 2. * etaValSq * std::cos(2. * deltaVal));
+           (1 + etaValSq - 2. * etaVal * std::cos(2. * deltaVal));
   };
 
   const double radius = SourcePar[0] * FmToNu;
